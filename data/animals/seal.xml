@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>seal</name>
+        <image>
+            <path>data/graphics/animals/seal.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>foka</pl>
+        </translation>
+    </animal>
+</data>

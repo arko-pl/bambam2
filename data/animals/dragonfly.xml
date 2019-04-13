@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>dragonfly</name>
+        <image>
+            <path>data/graphics/animals/dragonfly.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>ważka</pl>
+        </translation>
+    </animal>
+</data>

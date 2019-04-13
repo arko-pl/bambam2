@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>sealion</name>
+        <image>
+            <path>data/graphics/animals/sealion.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>uchatka</pl>
+        </translation>
+    </animal>
+</data>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>camel</name>
+        <image>
+            <path>data/graphics/animals/camel.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>wielbłąd</pl>
+        </translation>
+    </animal>
+</data>

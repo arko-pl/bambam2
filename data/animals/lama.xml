@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>lama</name>
+        <image>
+            <path>data/graphics/animals/lama.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>lama</pl>
+        </translation>
+    </animal>
+</data>

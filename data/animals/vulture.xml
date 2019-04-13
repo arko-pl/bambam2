@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>vulture</name>
+        <image>
+            <path>data/graphics/animals/vulture.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>sęp</pl>
+        </translation>
+    </animal>
+</data>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>hyena</name>
+        <image>
+            <path>data/graphics/animals/hyena.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>hiena</pl>
+        </translation>
+    </animal>
+</data>

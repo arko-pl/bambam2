@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>reindeer</name>
+        <image>
+            <path>data/graphics/animals/reindeer.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>renifer</pl>
+        </translation>
+    </animal>
+</data>

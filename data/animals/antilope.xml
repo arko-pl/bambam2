@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>antilope</name>
+        <image>
+            <path>data/graphics/animals/antilope.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>antylopa</pl>
+        </translation>
+    </animal>
+</data>

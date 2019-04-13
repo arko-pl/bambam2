@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>sloth</name>
+        <image>
+            <path>data/graphics/animals/sloth.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>leniwiec</pl>
+        </translation>
+    </animal>
+</data>

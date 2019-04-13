@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>ladybug</name>
+        <image>
+            <path>data/graphics/animals/ladybug.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>biedronka</pl>
+        </translation>
+    </animal>
+</data>

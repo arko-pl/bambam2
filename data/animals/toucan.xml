@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>toucan</name>
+        <image>
+            <path>data/graphics/animals/toucan.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>tukan</pl>
+        </translation>
+    </animal>
+</data>

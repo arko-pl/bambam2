@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>swan</name>
+        <image>
+            <path>data/graphics/animals/swan.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>łabądź</pl>
+        </translation>
+    </animal>
+</data>

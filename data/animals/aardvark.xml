@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>aardvark</name>
+        <image>
+            <path>data/graphics/animals/aardvark.svg</path>
+            <source>http://www.clker.com/cliparts/8/a/f/2/1237914129256097164papapishu_Aardvark.svg</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>mrówkojad</pl>
+        </translation>
+    </animal>
+</data>

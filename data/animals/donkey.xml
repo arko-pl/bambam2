@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>donkey</name>
+        <image>
+            <path>data/graphics/animals/donkey.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>osioł</pl>
+        </translation>
+    </animal>
+</data>

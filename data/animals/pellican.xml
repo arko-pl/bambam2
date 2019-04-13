@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>pellican</name>
+        <image>
+            <path>data/graphics/animals/pellican.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>pelikan</pl>
+        </translation>
+    </animal>
+</data>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>eagle</name>
+        <image>
+            <path>data/graphics/animals/eagle.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>orzeł</pl>
+        </translation>
+    </animal>
+</data>

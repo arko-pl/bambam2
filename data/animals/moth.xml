@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>moth</name>
+        <image>
+            <path>data/graphics/animals/moth.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>ćma</pl>
+        </translation>
+    </animal>
+</data>

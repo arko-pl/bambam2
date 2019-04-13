@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>turkey</name>
+        <image>
+            <path>data/graphics/animals/turkey.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>indyk</pl>
+        </translation>
+    </animal>
+</data>

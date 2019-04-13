@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>alligator</name>
+        <image>
+            <path>data/graphics/animals/alligator.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>aligator</pl>
+        </translation>
+    </animal>
+</data>

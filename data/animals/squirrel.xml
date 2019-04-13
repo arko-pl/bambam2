@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>squirrel</name>
+        <image>
+            <path>data/graphics/animals/squirrel.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>wiewiórka</pl>
+        </translation>
+    </animal>
+</data>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>emu</name>
+        <image>
+            <path>data/graphics/animals/emu.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>emu</pl>
+        </translation>
+    </animal>
+</data>

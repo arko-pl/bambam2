@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>pigeon</name>
+        <image>
+            <path>data/graphics/animals/pigeon.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>gołąb</pl>
+        </translation>
+    </animal>
+</data>

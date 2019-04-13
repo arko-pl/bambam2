@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>crawfish</name>
+        <image>
+            <path>data/graphics/animals/crawfish.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>langusta</pl>
+        </translation>
+    </animal>
+</data>

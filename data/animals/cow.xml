@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>cow</name>
+        <image>
+            <path>data/graphics/animals/cow.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>krowa</pl>
+        </translation>
+    </animal>
+</data>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>yak</name>
+        <image>
+            <path>data/graphics/animals/yak.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>jak</pl>
+        </translation>
+    </animal>
+</data>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>beaver</name>
+        <image>
+            <path>data/graphics/animals/beaver.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>bóbr</pl>
+        </translation>
+    </animal>
+</data>

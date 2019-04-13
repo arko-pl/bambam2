@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>orca</name>
+        <image>
+            <path>data/graphics/animals/orca.svg</path>
+            <source>TODO</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>orka</pl>
+        </translation>
+    </animal>
+</data>
