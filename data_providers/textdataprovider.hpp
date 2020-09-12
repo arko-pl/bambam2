@@ -30,12 +30,6 @@ public:
      * @return IGameElementData.
      */
     IGameElementData* getDataElement(const QString &key) override;
-    /**
-     * @brief Get data provider name.
-     *
-     * @return QString Data provider name.
-     */
-    QString getProviderName() const override;
 private:
     TextDataProvider(const TextDataProvider&) = delete;
     TextDataProvider& operator=(const TextDataProvider&) = delete;

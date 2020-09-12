@@ -23,13 +23,6 @@ public:
      * @return IGameElementData.
      */
     virtual IGameElementData* getDataElement(const QString& key) = 0;
-
-    /**
-     * @brief Get data provider name.
-     *
-     * @return QString Data provider name.
-     */
-    virtual QString getProviderName() const = 0;
 };
 
 #endif // IDATAPROVIDER_HPP

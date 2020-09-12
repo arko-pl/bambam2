@@ -1,11 +1,13 @@
 #include "strategyselector.hpp"
 
-#include "gamesettings.hpp"
+#include "settings/gamesettings.hpp"
+#include "settings/settings_common.hpp"
 #include "charbasedretrievestrategy.hpp"
 #include "iretrievestrategy.hpp"
 #include "randomretrievestrategy.hpp"
 
 #include <QString>
+#include <QVariant>
 
 class StrategySelectorImpl {
 public:
@@ -24,10 +26,18 @@ private:
 StrategySelector::StrategySelector(const GameElementMap& elements) {
     pImpl = std::make_unique<StrategySelectorImpl>(elements);
     const GameSettings& settings = GameSettings::getInstance();
+    using namespace Settings::DataProviders;
 
-    // FIXME: strategies should have their names, poka-yoke violation
-    if (settings.getRetrievalPolicy() == "random") {
+    const auto retrievalPolicy =
+            qvariant_cast<ConfigBased::RetrievalPolicy>(
+                settings.getDataProvidersOption(
+                    ConfigBased::SUBGROUP,
+                    ConfigBased::RETRIEVAL_POLICY));
+    // FIXME: Map this from settings
+    if (retrievalPolicy == ConfigBased::RetrievalPolicy::Random) {
         pImpl->m_selectedStrategy = &pImpl->m_randomStrategy;
+    } else {
+        pImpl->m_selectedStrategy = &pImpl->m_charBasedStrategy;
     }
 }
 

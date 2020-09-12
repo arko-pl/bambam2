@@ -1,7 +1,7 @@
 #include "scaledecorator.hpp"
 #include <QGraphicsItem>
 
-#include "gamesettings.hpp"
+#include "settings/gamesettings.hpp"
 #include "iscalingpolicy.hpp"
 
 ScaleDecorator::ScaleDecorator(IImageProvider* provider,

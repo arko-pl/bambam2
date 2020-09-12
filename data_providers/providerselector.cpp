@@ -50,10 +50,6 @@ IGameElementData* ProviderSelector::getDataElement(const QString& key) {
     return element;
 }
 
-QString ProviderSelector::getProviderName() const {
-    return QStringLiteral("");
-}
-
 void ProviderSelector::buildProvidersList() {
     pImpl->m_providersFactory.buildProvidersList(pImpl->m_providers);
 }

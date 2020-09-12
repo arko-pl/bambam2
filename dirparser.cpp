@@ -32,11 +32,10 @@ bool DirParser::parse(const QString& path) const {
     bool result = true;
     QDirIterator it(path);
     while (it.hasNext()) {
-        auto filePath = it.filePath();
+        auto filePath = it.next();
         if (pImpl->m_subparser->isParseable(filePath)) {
             result &= pImpl->m_subparser->parse(filePath);
         }
-        it.next();
     }
     return result;
 }

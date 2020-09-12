@@ -26,7 +26,7 @@ QGraphicsItem* TextItemProvider::makeItem()
     auto item = new QGraphicsTextItem(m_text);
 
     // TODO: configurable fonts
-    QFont font("Helvetica", 36);
+    QFont font("Helvetica", 72);
     font.setBold(true);
 
     item->setFont(font);

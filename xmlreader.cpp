@@ -6,7 +6,9 @@
 #endif
 
 #include "gameelementdata.hpp"
-#include "gamesettings.hpp"
+#include "settings/gamesettings.hpp"
+#include "settings/settings_common.hpp"
+#include "translationmanager.hpp"
 
 class XmlReaderImpl {
 public:
@@ -28,6 +30,9 @@ bool XmlReader::read(QIODevice *device) {
     const GameSettings& settings = GameSettings::getInstance();
     auto& xml = pImpl->m_xml;
     xml.setDevice(device);
+    const auto language = Translations::fromSettings(
+                qvariant_cast<Settings::General::Language>(
+                    settings.getGeneralOption(Settings::General::LANGUAGE)));
 
     GameElementData* ge = new GameElementData();
     while (!xml.atEnd()) {
@@ -51,13 +56,13 @@ bool XmlReader::read(QIODevice *device) {
 
     if (!ge->name().isEmpty() && !ge->imagePath().isEmpty() &&
             !xml.hasError()) {
-        auto translation = ge->translation(settings.getLanguage());
+        auto translation = ge->translation(language);
         if (!translation.isEmpty()) {
             pImpl->m_elements.insert(translation.at(0), ge);
         } else {
 #ifdef QT_DEBUG
-            qDebug() << "No translation found for language: "
-                     << settings.getLanguage();
+            qDebug() << "No translation found for language code:"
+                     << static_cast<int>(language);
 #endif
         }
     } else {

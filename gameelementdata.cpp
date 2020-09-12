@@ -3,6 +3,7 @@
 #include <QString>
 #include <QMap>
 
+#include "translationmanager.hpp"
 /**
  * @brief Game Element Data Implementation.
  *
@@ -17,7 +18,7 @@ public:
         m_soundPath() {}
 private:
     QString m_name; /**< Game Element name. */
-    QMap<QString, QString> m_translations; /**< Translation map. */
+    QMap<Translations::Language, QString> m_translations; /**< Translation map. */
     QString m_imagePath; /**< Path to the image file. */
     QString m_soundPath; /**< Path to the sound file. */
 };
@@ -41,7 +42,8 @@ void GameElementData::setSoundPath(const QString& path) {
 }
 
 void GameElementData::setTranslation(const QString& language, const QString& word) {
-    pImpl->m_translations.insert(language, word);
+    pImpl->m_translations.insert(Translations::fromString(language),
+                                 word);
 }
 
 void GameElementData::setName(const QString& name) {
@@ -60,7 +62,7 @@ const QString& GameElementData::soundPath() const {
     return pImpl->m_soundPath;
 }
 
-const QString& GameElementData::translation(const QString& language) const {
+const QString& GameElementData::translation(Translations::Language language) const {
     const auto it = pImpl->m_translations.find(language);
     if (it != pImpl->m_translations.cend()) {
         return it.value();

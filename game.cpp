@@ -12,12 +12,13 @@
 #include <QtDebug>
 
 #include "igameelementdata.hpp"
-#include "gamesettings.hpp"
+#include "ikeyboardgrabber.hpp"
+#include "settings/gamesettings.hpp"
 #include "keypresseventfilter.hpp"
 #include "screenmanager.hpp"
 #include "data_providers/graphics/factories/graphicsitemfactory.hpp"
 #include "data_providers/providerselector.hpp"
-
+#include "settings/settingswriter.hpp"
 
 class GamePrivate {
 public:
@@ -38,15 +39,18 @@ private:
 
     std::unique_ptr<KeyPressEventFilter> m_keyPressEventFilter;
     std::unique_ptr<QWidget> m_inputWidget;
+    std::unique_ptr<IKeyboardGrabber> m_keyboardGrabber;
 
     QApplication* m_app;
     QString m_keySequence;
 };
 
-Game::Game(QApplication *app, QObject *parent) : QObject(parent) {
+Game::Game(QApplication *app,
+           std::unique_ptr<IKeyboardGrabber> keyboardGrabber,
+           QObject *parent) : QObject(parent) {
     pImpl = std::make_unique<GamePrivate>(app);
 
-    setupInputWidget();
+    pImpl->m_keyboardGrabber = std::move(keyboardGrabber);
 }
 
 Game::~Game() = default;
@@ -76,7 +80,11 @@ void Game::handleKeyPress(const QString& keyName) {
 }
 
 void Game::startGame() {
+    setupInputWidget();
     pImpl->m_screenManager.show();
+    if (pImpl->m_keyboardGrabber != nullptr) {
+        pImpl->m_keyboardGrabber->grabKeyboard();
+    }
     //pImpl->m_inputWidget->setFocus();
 }
 
@@ -100,5 +108,11 @@ void Game::setupInputWidget() {
 }
 
 void Game::quitGame() {
+    pImpl->m_inputWidget->releaseKeyboard();
+    pImpl->m_inputWidget->close();
+    if (pImpl->m_keyboardGrabber != nullptr) {
+        pImpl->m_keyboardGrabber->releaseKeyboard();
+    }
     pImpl->m_screenManager.close();
+    emit quit();
 }

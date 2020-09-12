@@ -2,6 +2,9 @@
 #define IGAMEELEMENTDATA_HPP
 
 class QString;
+namespace Translations {
+enum class Language;
+}
 
 /**
  * @brief Game Element Data Interface.
@@ -69,7 +72,7 @@ public:
      * @param language Language code.
      * @return const QString Translated name.
      */
-    virtual const QString& translation(const QString& language) const = 0;
+    virtual const QString& translation(Translations::Language language) const = 0;
 };
 
 #endif // IGAMEELEMENTDATA_HPP

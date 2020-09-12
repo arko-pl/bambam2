@@ -3,7 +3,6 @@
 #include <QMultiHash>
 #include <random>
 
-#include "dataprovider_common.hpp"
 #include "dirparser.hpp"
 #include "xmlfileparser.hpp"
 #include "xmlreader.hpp"
@@ -48,8 +47,4 @@ ConfigBasedDataProvider::~ConfigBasedDataProvider() {
 
 IGameElementData* ConfigBasedDataProvider::getDataElement(const QString& key) {
     return pImpl->m_strategySelector.getStrategy(key)->getElement(key);
-}
-
-QString ConfigBasedDataProvider::getProviderName() const {
-    return DataProvider::ConfigBasedProvider;
 }

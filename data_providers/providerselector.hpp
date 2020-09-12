@@ -28,7 +28,6 @@ public:
      */
     ~ProviderSelector();
     IGameElementData* getDataElement(const QString& key) override;
-    QString getProviderName() const override;
 private:
     ProviderSelector(const ProviderSelector&) = delete;
     ProviderSelector& operator=(const ProviderSelector&) = delete;

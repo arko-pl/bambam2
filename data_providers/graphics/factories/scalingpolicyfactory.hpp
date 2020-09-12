@@ -28,8 +28,7 @@ public:
      * @param data Serialized Policy Data.
      * @return IScalingPolicy instance.
      */
-    IScalingPolicy* makePolicy(const ScalingPolicy::Policy policy,
-                               const QByteArray& data) const;
+    IScalingPolicy* makePolicy(const ScalingPolicy::Policy policy) const;
 
 private:
     ScalingPolicyFactory(const ScalingPolicyFactory&) = delete;

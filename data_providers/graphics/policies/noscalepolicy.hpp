@@ -32,19 +32,6 @@ public:
      * @return qreal Always 1.0.
      */
     qreal getScale(const QSizeF&) const override;
-    /**
-     * @brief Get policy name.
-     *
-     * @return const QString Policy name.
-     */
-    const QString& policyName() const override;
-    /**
-     * @brief Get policy configuration data.
-     *
-     * @param buffer Buffer for serialized data.
-     * @return const QByteArray Reference to @p buffer.
-     */
-    const QByteArray& policyData(QByteArray& buffer) const override;
 private:
     NoScalePolicy(const NoScalePolicy&) = delete;
     NoScalePolicy& operator=(const NoScalePolicy&) = delete;

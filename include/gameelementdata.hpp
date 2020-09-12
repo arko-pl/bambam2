@@ -7,6 +7,10 @@
 class QString;
 class GameElementDataImpl;
 
+namespace Translations {
+enum class Language;
+}
+
 /**
  * @brief Game Element Data
  *
@@ -83,7 +87,7 @@ public:
      * @param language Language code.
      * @return const QString Translated name.
      */
-    const QString& translation(const QString& language) const override;
+    const QString& translation(Translations::Language language) const override;
 private:
     GameElementData(const GameElementData&) = delete;
     GameElementData& operator=(const GameElementData&) = delete;

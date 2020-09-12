@@ -18,9 +18,9 @@ public:
     /**
      * @brief The constructor.
      *
-     * @param policyData Serialized policy data.
+     * @param size Image boundaries specified by size.
      */
-    explicit FitToSizePolicy(const QByteArray& policyData);
+    explicit FitToSizePolicy(const QSize& size);
     /**
      * @brief The destructor.
      *
@@ -37,37 +37,10 @@ public:
      * @return qreal Scale value.
      */
     qreal getScale(const QSizeF& originalSize) const override;
-    /**
-     * @brief Get policy name.
-     *
-     * @return const QString Policy name.
-     */
-    const QString& policyName() const override;
-    /**
-     * @brief Get policy configuration data.
-     *
-     * @param buffer Buffer for serialized data.
-     * @return const QByteArray Reference to @p buffer.
-     */
-    const QByteArray& policyData(QByteArray& buffer) const override;
 private:
     FitToSizePolicy(const FitToSizePolicy&) = delete;
     FitToSizePolicy& operator=(const FitToSizePolicy&) = delete;
-    /**
-     * @brief Serialize policy configuration data.
-     *
-     * @param buffer Buffer for serialized data.
-     * @return const QByteArray Reference to @p buffer.
-     */
-    const QByteArray& serialize(QByteArray& buffer) const;
-    /**
-     * @brief Deserialize policy configuration data.
-     *
-     * Deserialize boundaries provided as QByteArray.
-     *
-     * @param policyData Serialized policy data.
-     */
-    void deserialize(const QByteArray& policyData);
+
     QSize m_boundaries; /**< Image boundaries. */
 };
 

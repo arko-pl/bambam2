@@ -6,7 +6,11 @@ class QList;
 class QString;
 
 namespace DataProvider {
-    enum class Provider;
+enum class Provider {
+    ConfigBased,
+    Text,
+    Unknown
+};
 }
 
 class IDataProvider;

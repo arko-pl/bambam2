@@ -29,9 +29,15 @@ SOURCES += \
     maindialog.cpp \
     game.cpp \
     keypresseventfilter.cpp \
-    gamesettings.cpp \
     randomizer.cpp \
     screenmanager.cpp \
+    settings/dialog/widgets/dataproviderssettingswidget.cpp \
+    settings/dialog/widgets/generalsettingswidget.cpp \
+    settings/dialog/widgets/scalingpolicysettingswidget.cpp \
+    settings/settings_common.cpp \
+    settings/settingscontroller.cpp \
+    settings/settingshelpers.cpp \
+    translationmanager.cpp \
     xmlreader.cpp \
     dirparser.cpp \
     xmlfileparser.cpp \
@@ -40,8 +46,6 @@ SOURCES += \
     data_providers/strategies/randomretrievestrategy.cpp \
     data_providers/strategies/strategyselector.cpp \
     data_providers/textdataprovider.cpp \
-    settingsreader.cpp \
-    settingswriter.cpp \
     data_providers/providerselector.cpp \
     data_providers/graphics/decorators/graphicsitemdecorator.cpp \
     data_providers/graphics/factories/graphicsitemfactory.cpp \
@@ -57,15 +61,29 @@ SOURCES += \
     data_providers/graphics/policies/scalingpolicy_common.cpp \
     data_providers/graphics/direct/circleitemprovider.cpp \
     data_providers/dataproviderfactory.cpp \
-    data_providers/dataprovider_common.cpp
+    settings/settingsreader.cpp \
+    settings/settingswriter.cpp \
+    settings/gamesettings.cpp \
+    settings/dialog/settingsdialog.cpp \
+    settings/dialog/widgets/movewidget.cpp
 
 HEADERS += \
     maindialog.hpp \
     game.hpp \
     keypresseventfilter.hpp \
-    gamesettings.hpp \
     randomizer.hpp \
     screenmanager.hpp \
+    settings/dialog/idataprovidersettings.hpp \
+    settings/dialog/igeneralsettings.hpp \
+    settings/dialog/iscalingpolicysettings.hpp \
+    settings/dialog/widgets/dataproviderssettingswidget.hpp \
+    settings/dialog/widgets/generalsettingswidget.hpp \
+    settings/dialog/widgets/scalingpolicysettingswidget.hpp \
+    settings/isettingsreader.hpp \
+    settings/isettingswriter.hpp \
+    settings/settingscontroller.hpp \
+    settings/settingshelpers.hpp \
+    translationmanager.hpp \
     xmlreader.hpp \
     dirparser.hpp \
     xmlfileparser.hpp \
@@ -82,8 +100,6 @@ HEADERS += \
     data_providers/textdataprovider.hpp \
     include/igameelementdata.hpp \
     include/iscalingpolicy.hpp \
-    settingsreader.hpp \
-    settingswriter.hpp \
     data_providers/providerselector.hpp \
     include/idataprovider.hpp \
     data_providers/graphics/factories/graphicsitemfactory.hpp \
@@ -100,7 +116,12 @@ HEADERS += \
     data_providers/graphics/policies/scalingpolicy_common.hpp \
     data_providers/graphics/direct/circleitemprovider.hpp \
     data_providers/dataproviderfactory.hpp \
-    data_providers/dataprovider_common.hpp
+    settings/settingsreader.hpp \
+    settings/settingswriter.hpp \
+    settings/gamesettings.hpp \
+    settings/settings_common.hpp \
+    settings/dialog/settingsdialog.hpp \
+    settings/dialog/widgets/movewidget.hpp
 
 unix {
  QT += x11extras
