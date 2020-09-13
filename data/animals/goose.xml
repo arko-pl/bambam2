@@ -3,8 +3,8 @@
     <animal>
         <name>goose</name>
         <image>
-            <path>data/graphics/animals/goose-bird.svg</path>
-            <source>TODO</source>
+            <path>data/graphics/animals/goose.svg</path>
+            <source>http://www.clker.com/clipart-goose-bird.html</source>
         </image>
         <sound></sound>
         <translation>

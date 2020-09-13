@@ -4,7 +4,7 @@
         <name>shark</name>
         <image>
             <path>data/graphics/animals/shark.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-a-blue-shark.html</source>
         </image>
         <sound></sound>
         <translation>

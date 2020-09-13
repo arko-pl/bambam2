@@ -4,7 +4,7 @@
         <name>spider</name>
         <image>
             <path>data/graphics/animals/spider.svg</path>
-            <source>TODO</source>
+            <source>https://openclipart.org/detail/25589/spider</source>
         </image>
         <sound></sound>
         <translation>

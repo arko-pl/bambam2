@@ -4,7 +4,7 @@
         <name>earthworm</name>
         <image>
             <path>data/graphics/animals/earthworm.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-earthworm.html</source>
         </image>
         <sound></sound>
         <translation>

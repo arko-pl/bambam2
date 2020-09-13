@@ -4,7 +4,7 @@
         <name>alpaca</name>
         <image>
             <path>data/graphics/animals/alpaca.svg</path>
-            <source>TODO</source>
+            <source>https://www.openclipart.org/detail/242392/alpaca</source>
         </image>
         <sound></sound>
         <translation>

@@ -4,7 +4,7 @@
         <name>pigeon</name>
         <image>
             <path>data/graphics/animals/pigeon.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-23369.html</source>
         </image>
         <sound></sound>
         <translation>

@@ -4,7 +4,7 @@
         <name>hyena</name>
         <image>
             <path>data/graphics/animals/hyena.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-hyena.html</source>
         </image>
         <sound></sound>
         <translation>

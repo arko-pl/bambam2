@@ -4,7 +4,7 @@
         <name>badger</name>
         <image>
             <path>data/graphics/animals/badger.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-badger-2.html</source>
         </image>
         <sound></sound>
         <translation>

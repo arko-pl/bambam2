@@ -4,7 +4,7 @@
         <name>koala</name>
         <image>
             <path>data/graphics/animals/koala.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-koala-3.html</source>
         </image>
         <sound></sound>
         <translation>

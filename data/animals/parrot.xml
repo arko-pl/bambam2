@@ -4,7 +4,7 @@
         <name>parrot</name>
         <image>
             <path>data/graphics/animals/parrot.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-11846.html</source>
         </image>
         <sound></sound>
         <translation>

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <data>
     <animal>
-        <name>pellican</name>
+        <name>pelican</name>
         <image>
             <path>data/graphics/animals/pellican.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-155105.html</source>
         </image>
         <sound></sound>
         <translation>

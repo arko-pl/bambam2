@@ -4,7 +4,7 @@
         <name>dolphin</name>
         <image>
             <path>data/graphics/animals/dolphin.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-3390.html</source>
         </image>
         <sound></sound>
         <translation>

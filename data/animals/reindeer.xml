@@ -4,7 +4,7 @@
         <name>reindeer</name>
         <image>
             <path>data/graphics/animals/reindeer.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-reindeer.html</source>
         </image>
         <sound></sound>
         <translation>

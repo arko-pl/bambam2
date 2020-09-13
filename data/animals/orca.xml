@@ -4,7 +4,7 @@
         <name>orca</name>
         <image>
             <path>data/graphics/animals/orca.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-1746.html</source>
         </image>
         <sound></sound>
         <translation>

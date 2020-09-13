@@ -4,7 +4,7 @@
         <name>chicken</name>
         <image>
             <path>data/graphics/animals/chicken.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-30066.html</source>
         </image>
         <sound></sound>
         <translation>

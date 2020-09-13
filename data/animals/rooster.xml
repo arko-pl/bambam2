@@ -4,7 +4,7 @@
         <name>rooster</name>
         <image>
             <path>data/graphics/animals/rooster.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-rooster-1.html</source>
         </image>
         <sound></sound>
         <translation>

@@ -4,7 +4,7 @@
         <name>alligator</name>
         <image>
             <path>data/graphics/animals/alligator.svg</path>
-            <source>TODO</source>
+            <source>https://commons.wikimedia.org/wiki/File:Alligator_(PSF).svg</source>
         </image>
         <sound></sound>
         <translation>

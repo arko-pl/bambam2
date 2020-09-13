@@ -3,8 +3,8 @@
     <animal>
         <name>bat</name>
         <image>
-            <path>data/graphics/animals/xbat.svg</path>
-            <source>TODO</source>
+            <path>data/graphics/animals/bat.svg</path>
+            <source>https://www.svgrepo.com/svg/28210/bat</source>
         </image>
         <sound></sound>
         <translation>

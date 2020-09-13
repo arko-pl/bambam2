@@ -4,7 +4,7 @@
         <name>panda</name>
         <image>
             <path>data/graphics/animals/panda.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-9882.html</source>
         </image>
         <sound></sound>
         <translation>

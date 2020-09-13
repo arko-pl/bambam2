@@ -4,7 +4,7 @@
         <name>cobra</name>
         <image>
             <path>data/graphics/animals/cobra.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-152025.html</source>
         </image>
         <sound></sound>
         <translation>

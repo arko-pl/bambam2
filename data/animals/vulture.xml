@@ -4,7 +4,7 @@
         <name>vulture</name>
         <image>
             <path>data/graphics/animals/vulture.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-big-brown-vulture.html</source>
         </image>
         <sound></sound>
         <translation>

@@ -4,7 +4,7 @@
         <name>ape</name>
         <image>
             <path>data/graphics/animals/ape.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-ape-1.html</source>
         </image>
         <sound></sound>
         <translation>

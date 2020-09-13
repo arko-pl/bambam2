@@ -4,7 +4,7 @@
         <name>lama</name>
         <image>
             <path>data/graphics/animals/lama.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-lama.html</source>
         </image>
         <sound></sound>
         <translation>

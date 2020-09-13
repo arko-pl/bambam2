@@ -4,7 +4,7 @@
         <name>rhinoceros</name>
         <image>
             <path>data/graphics/animals/rhinoceros.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-rhinoceros.html</source>
         </image>
         <sound></sound>
         <translation>

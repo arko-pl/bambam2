@@ -4,7 +4,7 @@
         <name>beaver</name>
         <image>
             <path>data/graphics/animals/beaver.svg</path>
-            <source>TODO</source>
+            <source>https://openclipart.org</source>
         </image>
         <sound></sound>
         <translation>

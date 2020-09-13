@@ -3,8 +3,8 @@
     <animal>
         <name>bear</name>
         <image>
-            <path>data/graphics/animals/bear.svg</path>
-            <source>https://openclipart.org/detail/32527/architetto-orso-12</source>
+            <path>data/graphics/animals/bear2.svg</path>
+            <source>https://openclipart.org/detail/172279/flag-of-california-bear</source>
         </image>
         <sound></sound>
         <translation>

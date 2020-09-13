@@ -4,7 +4,7 @@
         <name>seal</name>
         <image>
             <path>data/graphics/animals/seal.svg</path>
-            <source>TODO</source>
+            <source>https://www.svgrepo.com/svg/19368/seal</source>
         </image>
         <sound></sound>
         <translation>

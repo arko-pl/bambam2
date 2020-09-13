@@ -4,7 +4,7 @@
         <name>hamster</name>
         <image>
             <path>data/graphics/animals/hamster.svg</path>
-            <source>TODO</source>
+            <source>https://www.flaticon.com/free-icon/hamster_196817</source>
         </image>
         <sound></sound>
         <translation>

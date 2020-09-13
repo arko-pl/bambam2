@@ -143,6 +143,7 @@ DISTFILES += \
     data/animals/badger.xml \
     data/animals/bat.xml \
     data/animals/bear.xml \
+    data/animals/bear2.xml \
     data/animals/beaver.xml \
     data/animals/bison.xml \
     data/animals/camel.xml \
@@ -183,11 +184,12 @@ DISTFILES += \
     data/animals/owl.xml \
     data/animals/panda.xml \
     data/animals/parrot.xml \
-    data/animals/pellican.xml \
+    data/animals/pelican.xml \
     data/animals/penguin.xml \
     data/animals/pigeon.xml \
     data/animals/rabbit.xml \
     data/animals/racoon.xml \
+    data/animals/rat.xml \
     data/animals/reindeer.xml \
     data/animals/rhinoceros.xml \
     data/animals/rooster.xml \

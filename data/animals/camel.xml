@@ -4,7 +4,7 @@
         <name>camel</name>
         <image>
             <path>data/graphics/animals/camel.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-camel-3.html</source>
         </image>
         <sound></sound>
         <translation>

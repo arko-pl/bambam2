@@ -4,7 +4,7 @@
         <name>gorilla</name>
         <image>
             <path>data/graphics/animals/gorilla.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-gorilla.html</source>
         </image>
         <sound></sound>
         <translation>

@@ -4,7 +4,7 @@
         <name>snake</name>
         <image>
             <path>data/graphics/animals/snake.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-snake-colour.html</source>
         </image>
         <sound></sound>
         <translation>

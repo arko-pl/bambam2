@@ -4,7 +4,7 @@
         <name>dragonfly</name>
         <image>
             <path>data/graphics/animals/dragonfly.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-dragon-fly.html</source>
         </image>
         <sound></sound>
         <translation>

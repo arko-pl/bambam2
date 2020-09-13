@@ -4,7 +4,7 @@
         <name>emu</name>
         <image>
             <path>data/graphics/animals/emu.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-emu.html</source>
         </image>
         <sound></sound>
         <translation>

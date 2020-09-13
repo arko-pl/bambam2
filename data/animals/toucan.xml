@@ -4,7 +4,7 @@
         <name>toucan</name>
         <image>
             <path>data/graphics/animals/toucan.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-toucan-2.html</source>
         </image>
         <sound></sound>
         <translation>

@@ -4,7 +4,7 @@
         <name>mouse</name>
         <image>
             <path>data/graphics/animals/mouse.svg</path>
-            <source>TODO</source>
+            <source>http://www.clker.com/clipart-simple-cartoon-mouse-2.html</source>
         </image>
         <sound></sound>
         <translation>

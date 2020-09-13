@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<data>
+    <animal>
+        <name>rat</name>
+        <image>
+            <path>data/graphics/animals/rat.svg</path>
+            <source>http://www.clker.com/clipart-mouse-2.html</source>
+        </image>
+        <sound></sound>
+        <translation>
+            <pl>szczur</pl>
+        </translation>
+    </animal>
+</data>
