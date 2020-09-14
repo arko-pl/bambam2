@@ -123,6 +123,7 @@ void ScreenManager::createViews() {
         view->setVerticalScrollBarPolicy(
                     Qt::ScrollBarPolicy::ScrollBarAlwaysOff);
         pImpl->m_screenToViewMap.insert(screen, view);
+        insertShortHelp(*view);
     }
 
     pImpl->m_scene.setSceneRect(sceneRect);
@@ -159,4 +160,15 @@ QGraphicsView*ScreenManager::getRandomView() const {
     int viewNr = pImpl->m_randomizer.getRandomInt(0, views.count() - 1);
 
     return views.at(viewNr);
+}
+
+void ScreenManager::insertShortHelp(const QGraphicsView& view)
+{
+    auto item = new QGraphicsTextItem(tr("Type 'quit' to exit game"));
+    item->setDefaultTextColor(QColor(0xc0,0xc0,0xc0));
+    item->setPos(view.sceneRect().left(),
+                 view.sceneRect().top());
+    QFont font("Helvetica", 8);
+    item->setFont(font);
+    view.scene()->addItem(item);
 }

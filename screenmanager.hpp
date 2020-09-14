@@ -101,6 +101,11 @@ private:
      * @return QGraphicsView Random view.
      */
     QGraphicsView* getRandomView() const;
+    /**
+     * @brief Insert short help string on top of @p view.
+     * @param view View to insert the help.
+     */
+    void insertShortHelp(const QGraphicsView& view);
 
     PImpl<ScreenManagerPrivate> pImpl; /**< Pointer to the implementation. */
 };
