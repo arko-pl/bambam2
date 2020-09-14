@@ -17,6 +17,7 @@
 #include "xmlreader.hpp"
 
 #include <QXmlStreamReader>
+#include <QVariant>
 #ifdef QT_DEBUG
 #include <QtDebug>
 #endif
